@@ -7,7 +7,7 @@ ENV PYTHONUNBUFFERED 1
 # Set work directory
 WORKDIR /code
 
-RUN apk update && apk add postgresql-dev gcc python3-dev musl-dev
+RUN apk update && apk add postgresql-dev gcc python3-dev musl-dev jpeg-dev zlib-dev
 
 # Install dependencies
 COPY requirements.txt /code//requirements.txt
