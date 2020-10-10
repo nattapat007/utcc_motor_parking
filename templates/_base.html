@@ -3,7 +3,7 @@
 <html>
 <head>
     <meta charset="utf-8">
-    <title>{% block title %}UTCC Parking{% endblock title %}</title>
+    <title>{% block title %}U-Park{% endblock title %}</title>
     <!-- CSS -->
     <link rel="stylesheet" href="{% static 'css/base.css' %}">
     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css"
@@ -13,7 +13,7 @@
 <header>
     <!-- Fixed navbar -->
     <div class="d-flex flex-column flex-md-row align-items-center p-3 px-md-4 mb-3 bg-white border-bottom shadow-sm">
-        <a href="{% url 'home' %}" class="navbar-brand my-0 mr-md-auto font-weight-normal">Bookstore</a>
+        <a href="{% url 'home' %}" class="navbar-brand my-0 mr-md-auto font-weight-normal">U-Park</a>
         <nav class="my-2 my-md-0 mr-md-3">
             <a class="p-2 text-dark" href="#">About</a>
             {% if user.is_authenticated %}
